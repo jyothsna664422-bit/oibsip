@@ -1,41 +1,27 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio</title>
+  <title>Temperature Converter</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>My Portfolio</h1>
-</header>
+<div class="container">
+  <h1>Temperature Converter</h1>
 
-<section>
-  <h2>About Me</h2>
-  <p>I am a web development student.</p>
-</section>
+  <input type="number" id="temp" placeholder="Enter Temperature">
 
-<section>
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
-</section>
+  <select id="unit">
+    <option value="c">Celsius to Fahrenheit</option>
+    <option value="f">Fahrenheit to Celsius</option>
+  </select>
 
-<section>
-  <h2>Projects</h2>
-  <p>Calculator Website</p>
-  <p>Portfolio Website</p>
-</section>
+  <button onclick="convertTemp()">Convert</button>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: example@gmail.com</p>
-</section>
+  <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>

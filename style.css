@@ -1,22 +1,20 @@
-
-
 body{
-  font-family:Arial;
-  margin:0;
-  padding:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
   background:#f2f2f2;
+  font-family:Arial;
 }
 
-header{
-  background:#333;
-  color:white;
-  text-align:center;
-  padding:20px;
-}
-
-section{
+.container{
   background:white;
-  margin:20px;
   padding:20px;
   border-radius:10px;
+  text-align:center;
+}
+
+input,select,button{
+  margin:10px;
+  padding:10px;
 }
